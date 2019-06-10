@@ -1,0 +1,43 @@
+/* CSS for Cookies */
+
+body {
+		background-color: darkseagreen;
+		text-align: left;
+		color: navy;
+		margin: 10px;
+
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+#header{
+    text-align: center;
+    background-color: white;
+    border: 10px solid red;
+    font-family: monospace;
+}
+
+h2{
+    color: black;
+    
+}
+
+.centered{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+#personal {
+		background-color: lightblue;
+		color: navy;
+		padding: 15px 15px 30px 15px;
+		border: 5px solid navy;
+}
+
+p, input{
+    text-align: center;
+}

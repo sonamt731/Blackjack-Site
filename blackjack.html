@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Black Jack</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="../externalstyle.css">
+	<script type = "text/javascript" src = "blackjack.js">
+    </script>
+      
+    <style>
+       @import "blackjack.css"; 
+        
+    </style>
+</head>
+
+<body onload = "checkCookie()">
+    
+<div id="wrapper">
+    <div id="header">
+            <h1>Welcome To Black Jack</h1>
+        </div>
+</div>
+
+<div class = "sidenav">  
+    <a href="../index.html"><img src="../buttons/home.gif" width="120" height="100" border="0" alt="two" id="two" /></a>&nbsp;&nbsp;
+
+
+    <a href="../index2.html"><img src="../buttons/assignments.gif" width="120" height="100" border="0" alt="one" id="one" /></a>
+
+    <a href="http://cs.nyu.edu/courses/spring17/CSCI-UA.0061-001/"><img src="../buttons/webhome.gif" width="120" height="100" border="0" alt="two" id="two" /></a>
+
+    <a href="../WebDesign/index.html"><img src="../buttons/fall2018.gif" width="120" height="100" border="0" alt="two" id="two" /></a>
+
+    <a href="../resume.html"><img src="../buttons/resume.gif" width="120" height="100" border="0" alt="two" id="two" /></a>
+</div> 
+
+<form method = "get" name = "myForm" action = >
+
+<div class = centered>
+    <img src = "cards/cardsopen.gif" width = 300 height= 200 >
+    <img src = "cards/funcard.gif" width = 400 height= 200 >
+</div>
+
+<div class = "centered">
+<h2>Card 1 Value: <input name = "card1" size= 3 type = text>
+<img src = "cards/cardback.gif" width = 100 height=135>
+</h2>
+
+
+
+<h2>Card 2 value: <input name = "card2" size= 3 type = text>
+<img src = "cards/cardback.gif" width = 100 height=135>
+</h2>
+
+
+
+<h2>Points for the Hand: <input name = "total" size= 2 type = text></h2>
+<h2>Number of Hands So Far: <input name = "hands" size = 2 type = text></h2>
+<br>
+<input type = "button" name="pick" value="Deal A Hand" onClick="pickIt();">
+<input type = "reset" name = "cancel" value = "Cancel">
+<input type = "button" value = "Close the Window" onClick = "closeWindow();">
+</div>
+
+
+
+
+</form>
+</body>
+</html>
+
